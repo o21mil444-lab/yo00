@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shot Coffee | Premium Coffee Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-mug-hot"></i>
+                <span>Shot Coffee</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to <span class="highlight">Shot Coffee</span></h1>
+            <p>Where Every Cup Tells a Story</p>
+            <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop" alt="Coffee shop interior">
+                </div>
+                <div class="about-content">
+                    <h2>Our Story</h2>
+                    <p>Founded with a passion for exceptional coffee, Shot Coffee has been serving the community since 2015. We believe that a great cup of coffee can brighten anyone's day.</p>
+                    <p>Our beans are ethically sourced from sustainable farms around the world, roasted to perfection, and crafted with love by our skilled baristas.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Organic</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Handcrafted</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Fresh Daily</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Discover our carefully crafted beverages</p>
+            
+            <div class="menu-categories">
+                <button class="menu-tab active" data-category="espresso">Espresso</button>
+                <button class="menu-tab" data-category="specialty">Specialty</button>
+                <button class="menu-tab" data-category="pastries">Pastries</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Espresso Items -->
+                <div class="menu-item" data-category="espresso">
+                    <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=300&h=200&fit=crop" alt="Espresso">
+                    <div class="menu-item-content">
+                        <h3>Classic Espresso</h3>
+                        <p>Rich, bold, and perfectly extracted</p>
+                        <span class="price">$3.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="espresso">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop" alt="Double Shot">
+                    <div class="menu-item-content">
+                        <h3>Double Shot</h3>
+                        <p>Double the espresso, double the energy</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="espresso">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=300&h=200&fit=crop" alt="Americano">
+                    <div class="menu-item-content">
+                        <h3>Americano</h3>
+                        <p>Espresso with hot water, smooth finish</p>
+                        <span class="price">$3.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="espresso">
+                    <img src="https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=300&h=200&fit=crop" alt="Macchiato">
+                    <div class="menu-item-content">
+                        <h3>Caramel Macchiato</h3>
+                        <p>Espresso with steamed milk and caramel</p>
+                        <span class="price">$4.75</span>
+                    </div>
+                </div>
+
+                <!-- Specialty Items -->
+                <div class="menu-item" data-category="specialty">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop" alt="Cappuccino">
+                    <div class="menu-item-content">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso with steamed milk foam</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="specialty">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop" alt="Latte">
+                    <div class="menu-item-content">
+                        <h3>Signature Latte</h3>
+                        <p>Espresso with velvety steamed milk</p>
+                        <span class="price">$5.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="specialty">
+                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=300&h=200&fit=crop" alt="Mocha">
+                    <div class="menu-item-content">
+                        <h3>Mocha Delight</h3>
+                        <p>Espresso with chocolate and whipped cream</p>
+                        <span class="price">$5.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="specialty">
+                    <img src="https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=300&h=200&fit=crop" alt="Cold Brew">
+                    <div class="menu-item-content">
+                        <h3>Cold Brew</h3>
+                        <p>Steeped for 24 hours, served cold</p>
+                        <span class="price">$4.00</span>
+                    </div>
+                </div>
+
+                <!-- Pastry Items -->
+                <div class="menu-item" data-category="pastries">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&h=200&fit=crop" alt="Croissant">
+                    <div class="menu-item-content">
+                        <h3>Butter Croissant</h3>
+                        <p>Freshly baked, flaky and buttery</p>
+                        <span class="price">$3.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastries">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&h=200&fit=crop" alt="Chocolate Muffin">
+                    <div class="menu-item-content">
+                        <h3>Chocolate Muffin</h3>
+                        <p>Rich chocolate chips throughout</p>
+                        <span class="price">$3.75</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastries">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&h=200&fit=crop" alt="Cinnamon Roll">
+                    <div class="menu-item-content">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Warm, gooey, with cream cheese frosting</p>
+                        <span class="price">$4.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastries">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300&h=200&fit=crop" alt="Scone">
+                    <div class="menu-item-content">
+                        <h3>Blueberry Scone</h3>
+                        <p>Bursting with fresh blueberries</p>
+                        <span class="price">$3.25</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-subtitle">A glimpse into the Shot Coffee experience</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=400&h=300&fit=crop" alt="Coffee beans">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400&h=300&fit=crop" alt="Barista at work">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop" alt="Coffee shop ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1507133750069-bef72f3707a9?w=400&h=300&fit=crop" alt="Latte art">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400&h=300&fit=crop" alt="Coffee preparation">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=300&fit=crop" alt="Coffee cups">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <p class="section-subtitle">We'd love to serve you</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>123 Coffee Street<br>Coffee District, NY 10001</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Hours</h3>
+                        <p>Mon - Fri: 6:00 AM - 9:00 PM<br>Sat - Sun: 7:00 AM - 10:00 PM</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Contact</h3>
+                        <p>Phone: (555) 123-4567<br>Email: hello@shotcoffee.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a message</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>Shot Coffee</span>
+                </div>
+                <p>Follow us on social media</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Shot Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
